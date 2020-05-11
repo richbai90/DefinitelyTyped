@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "target": "es5",
         "module": "commonjs",
         "lib": [
             "es6",
@@ -14,9 +15,13 @@
             "../"
         ],
         "types": [],
+        "paths": {
+            "@sinonjs/fake-timers": [
+                "sinonjs__fake-timers"
+            ]
+        },
         "noEmit": true,
-        "forceConsistentCasingInFileNames": true,
-        "esModuleInterop": true
+        "forceConsistentCasingInFileNames": true
     },
     "files": [
         "index.d.ts",

@@ -10,7 +10,7 @@
             "dom"
         ],
         "noImplicitAny": true,
-        "noImplicitThis": false,
+        "noImplicitThis": true,
         "strictNullChecks": true,
         "strictFunctionTypes": true,
         "baseUrl": "../",
@@ -20,7 +20,6 @@
         "types": [],
         "noEmit": true,
         "forceConsistentCasingInFileNames": true,
-        "esModuleInterop": true,
         "jsx": "preserve"
     }
 }

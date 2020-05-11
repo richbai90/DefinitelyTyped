@@ -14,11 +14,13 @@
         ],
         "types": [],
         "noEmit": true,
-        "forceConsistentCasingInFileNames": true,
-        "esModuleInterop": true
+        "forceConsistentCasingInFileNames": true
     },
     "files": [
         "index.d.ts",
-        "mongoose-tests.ts"
+        "test/document.ts",
+        "test/model.ts",
+        "test/mongoose.ts",
+        "test/query.ts"
     ]
 }

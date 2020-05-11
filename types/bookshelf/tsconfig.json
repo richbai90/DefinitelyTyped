@@ -5,18 +5,14 @@
         "lib": [
             "es6"
         ],
-        "noImplicitAny": true,
-        "noImplicitThis": true,
-        "strictNullChecks": false,
-        "strictFunctionTypes": true,
+        "strict": true,
         "baseUrl": "../",
         "typeRoots": [
             "../"
         ],
         "types": [],
         "noEmit": true,
-        "forceConsistentCasingInFileNames": true,
-        "esModuleInterop": true
+        "forceConsistentCasingInFileNames": true
     },
     "files": [
         "index.d.ts",

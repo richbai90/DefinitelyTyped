@@ -6,7 +6,7 @@
             "dom"
         ],
         "noImplicitAny": true,
-        "noImplicitThis": false,
+        "noImplicitThis": true,
         "strictNullChecks": false,
         "strictFunctionTypes": false,
         "baseUrl": "../../",
@@ -20,8 +20,7 @@
             ]
         },
         "noEmit": true,
-        "forceConsistentCasingInFileNames": true,
-        "esModuleInterop": true
+        "forceConsistentCasingInFileNames": true
     },
     "files": [
         "index.d.ts",
